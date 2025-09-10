@@ -89,25 +89,25 @@ namespace ST10379457_PROG7312_POE
 
                     int reportCount = ReportList.GetReportCount();
 
-                    if (reportCount >= 1)
+                    if (reportCount == 1)
                     {
                         MessageBox.Show("Congratulations! You have created your first report!", "New Badge unlocked");
                     }
 
 
-                    if (reportCount >= 10)
+                    if (reportCount == 10)
                     {
                         MessageBox.Show("Congratulations! You have created your 10th report!", "New Badge unlocked");
                     }
 
 
-                    if (reportCount >= 50)
+                    if (reportCount == 50)
                     {
                         MessageBox.Show("Congratulations! You have created your 50th report!", "New Badge unlocked");
                     }
 
 
-                    if (reportCount >= 100)
+                    if (reportCount == 100)
                     {
                         MessageBox.Show("Congratulations! You have created your 100th report!");
                     }
